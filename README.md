@@ -1,3 +1,3 @@
-# omoku (WIP)
+# Omoku (WIP)
 
 Node JS Omoku game to test AI algorithms.
