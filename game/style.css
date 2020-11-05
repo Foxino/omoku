@@ -38,3 +38,48 @@ html {
 	color: greenyellow;
 	border: greenyellow 1px solid;
 }
+
+#game-container {
+	position: absolute;
+	left: 28vw;
+	background-color: #292929;
+	top: 8px;
+	height: 780px;
+	width: 720px;
+	border: greenyellow 1px solid;
+	padding: 20px;
+	padding-left: 25px;
+}
+
+#game-container div {
+	height: 45px;
+	width: 45px;
+	margin-top: 4px;
+	vertical-align: middle;
+	display: inline-block;
+	color: black;
+	cursor: pointer;
+	font-size: 28px;
+	background-image: url("game_img/blank.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: transparent 1px solid;
+}
+
+#game-container div:hover {
+	border: cyan 1px solid;
+}
+
+#game-container .x {
+	background-image: url("game_img/cat.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#game-container .y {
+	background-image: url("game_img/cat2.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
